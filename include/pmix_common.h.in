@@ -1252,6 +1252,8 @@ typedef int pmix_status_t;
 #define PMIX_EVENT_ACTION_DEFERRED                  -333
 #define PMIX_EVENT_ACTION_COMPLETE                  -334
 
+#define PMIX_EVENT_TERMINATE                  -335 //ssumi-ext
+
 /* define a starting point for user-level defined error
  * constants - negative values larger than this are guaranteed
  * not to conflict with PMIx values. Definitions should always
